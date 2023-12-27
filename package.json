@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "canvas-sketch sketch.js --dir assets --open",
     "dev": "canvas-sketch sketch.js --dir assets --hot --open",
-    "build-no-compress": "canvas-sketch mysketch.js --dir src --build --no-compress",
-    "build-inline": "canvas-sketch sketch.js --name index --build --inline",
-    "build-website": "canvas-sketch src/index.js --html=src/page.html --js=bundle.js"
+    "build": "canvas-sketch sketch.js --dir src --build --no-compress",
+    "build-inline": "canvas-sketch sketch.js --name index --build --inline"
+
   },
   "keywords": [],
   "author": "",

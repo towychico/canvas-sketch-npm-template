@@ -25,7 +25,7 @@ npm run dev
 ## For built
 Render website to 'public/' without minification
 ```bash
-npm run build-no-compress
+npm run build
 ```
 Render website to a single standalone file called 'index.html'
 ```bash
