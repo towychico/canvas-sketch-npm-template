@@ -1,0 +1,20 @@
+{
+  "name": "js-sketch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "canvas-sketch sketch.js --dir assets --open",
+    "dev": "canvas-sketch sketch.js --dir assets --hot --open",
+    "build-no-compress": "canvas-sketch mysketch.js --dir src --build --no-compress",
+    "build-inline": "canvas-sketch sketch.js --name index --build --inline",
+    "build-website": "canvas-sketch src/index.js --html=src/page.html --js=bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-sketch": "^0.7.7"
+  }
+}
