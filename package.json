@@ -8,7 +8,8 @@
     "start": "canvas-sketch sketch.js --dir assets --open",
     "dev": "canvas-sketch sketch.js --dir assets --hot --open",
     "build": "canvas-sketch sketch.js --dir src --build --no-compress",
-    "build-inline": "canvas-sketch sketch.js --name index --build --inline"
+    "build-inline": "canvas-sketch sketch.js --name index --build --inline",
+    "render": "canvas-sketch sketch.js --output=output"
 
   },
   "keywords": [],

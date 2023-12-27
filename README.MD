@@ -37,3 +37,7 @@ Render a website using a different HTML file and custom JS src
 npm run build-website
 ```
 
+# for exporting to png
+```bash
+npm run render
+```
